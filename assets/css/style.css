@@ -39,6 +39,10 @@ header a {
     font-size: 100%;
 }
 
+.active {
+    border-bottom: 1px dashed #ffffff;
+}
+
 main {
     background-color: rgba(246, 235, 222, 0.8);
     /* Moves the main content under the header and not behind it */
