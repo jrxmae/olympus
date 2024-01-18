@@ -13,6 +13,9 @@ body {
 
 header {
     background-color: rgba(245, 223, 196, 0.8);
+    /* Shows the header even when you scroll */
+    position: fixed;
+    width: 100%;
 }
 
 main {
