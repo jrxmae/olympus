@@ -26,12 +26,12 @@ header {
 }
 
 header a {
+    /* Gets rid of the underline in hyperlinks */
     text-decoration: none;
     color: lightsteelblue;
     text-transform: uppercase;
     letter-spacing: 9px;
 }
-
 
 main {
     background-color: rgba(246, 235, 222, 0.8);
