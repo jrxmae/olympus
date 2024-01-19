@@ -23,6 +23,10 @@ header {
     /* Prevents header from sticking to the sides of the screen */
     padding: 0 1rem;
     box-shadow: 0 1px 6px #e0c192;
+    /* For dropdown bar */
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -30,7 +34,7 @@ header a {
     text-decoration: none;
     color: rgb(134, 181, 243);
     text-transform: uppercase;
-    letter-spacing: 9px;
+    letter-spacing: 7px;
 }
 
 #menu {
@@ -52,6 +56,20 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 1px 6px #e0c192;
     display: none;
+    top: 100%;
+}
+
+/* Menu pop up when checkbox is checked */
+#nav-dropdown:checked~nav {
+    display: block;
+}
+
+#nav-dropdown {
+    display: none;
+}
+
+.nav-dropdown-label {
+    font-size: 2rem;
 }
 
 main {
