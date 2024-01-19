@@ -43,6 +43,17 @@ header a {
     border-bottom: 1px dashed #ffffff;
 }
 
+/* Navbar styles for dropdown */
+nav {
+    position: absolute;
+    background-color: rgb(245, 223, 196, 0.8);
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 1px 6px #e0c192;
+    display: none;
+}
+
 main {
     background-color: rgba(246, 235, 222, 0.8);
     /* Moves the main content under the header and not behind it */
