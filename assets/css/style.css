@@ -28,7 +28,7 @@ header {
 header a {
     /* Gets rid of the underline in hyperlinks */
     text-decoration: none;
-    color: lightsteelblue;
+    color: rgb(134, 181, 243);
     text-transform: uppercase;
     letter-spacing: 9px;
 }
