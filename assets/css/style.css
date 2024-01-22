@@ -88,4 +88,12 @@ main {
 
 footer {
     background-color: lightblue;
+    padding: 0 1rem;
+}
+
+#socials {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
 }
