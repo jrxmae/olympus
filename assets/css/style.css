@@ -89,11 +89,19 @@ main {
 footer {
     background-color: lightblue;
     padding: 0 1rem;
+    color: #4c4c4c;
+    font-size: medium;
 }
 
 #socials {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: baseline;
+    font-size: 2rem;
+}
+
+footer > p {
+    text-align: center;
+    padding: 0 0 1rem;
 }
