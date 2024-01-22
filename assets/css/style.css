@@ -37,6 +37,11 @@ header a {
     letter-spacing: 7px;
 }
 
+/* To change the colour fo the FontAwesome kit icon */
+i {
+    color: #f5f5f5;
+}
+
 #menu {
     /* Gets rid of the bullet points */
     list-style-type: none;
@@ -75,7 +80,7 @@ nav {
 main {
     background-color: rgba(246, 235, 222, 0.8);
     /* Moves the main content under the header and not behind it */
-    margin-top: 108px;
+    margin-top: 43px;
     /* Makes main content take up all the space between header and footer */
     flex: 1 0 auto;
     font-family: 'GFS Neohellenic', sans-serif;
