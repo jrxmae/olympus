@@ -86,6 +86,10 @@ main {
     font-family: 'GFS Neohellenic', sans-serif;
 }
 
+main > img {
+    width: 100%;
+}
+
 footer {
     background-color: lightblue;
     padding: 0 1rem;
