@@ -84,6 +84,18 @@ main {
     /* Makes main content take up all the space between header and footer */
     flex: 1 0 auto;
     font-family: 'GFS Neohellenic', sans-serif;
+    color: #3a3a3a;
+    font-size: x-large;
+}
+
+main > div {
+    padding: 1rem 5rem 0 5rem;
+    text-align: center;
+}
+
+main h2 {
+    font-family: 'GFS Didot', serif;
+    padding: 2rem;
 }
 
 main > img {
