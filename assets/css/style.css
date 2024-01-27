@@ -88,6 +88,13 @@ main {
     font-size: x-large;
 }
 
+/* Styling for the video in 'Subsribe' page */
+main video {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
 main > div {
     padding: 0rem 1rem 0rem 1rem;
     text-align: center;
