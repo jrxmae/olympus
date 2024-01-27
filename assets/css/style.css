@@ -96,18 +96,17 @@ main video {
 }
 
 main > div {
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 0rem 1rem 1rem 1rem;
     text-align: center;
 }
 
 main h2 {
     font-family: 'GFS Didot', serif;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .home-text {
     margin-bottom: 2rem;
-    margin-top: 2rem;
 }
 
 /* To fit the images in main within it's space */
