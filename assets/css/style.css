@@ -102,8 +102,13 @@ main h2 {
     margin-bottom: 2rem;
 }
 
-main > img {
+/* To fit the images in main within it's space */
+main img {
     width: 100%;
+}
+
+.break-text {
+    border-radius: 50%;
 }
 
 footer {
