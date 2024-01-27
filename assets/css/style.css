@@ -85,14 +85,14 @@ main {
     flex: 1 0 auto;
     font-family: 'GFS Neohellenic', sans-serif;
     color: #3a3a3a;
-    font-size: x-large;
+    font-size: 1rem;
 }
 
 /* Styling for the video in 'Subsribe' page */
 main video {
     width: 100%;
     height: auto;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0rem 1rem 0.5rem 1rem;
 }
 
 main > div {
@@ -107,6 +107,7 @@ main h2 {
 
 .home-text {
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 /* To fit the images in main within it's space */
