@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: rgba(245, 223, 196, 0.8);
+    background-color: rgba(245, 223, 196, 0.9);
     /* Shows the header even when you scroll */
     position: fixed;
     width: 100%;
@@ -78,7 +78,7 @@ nav {
 }
 
 main {
-    background-color: rgba(246, 235, 222, 0.8);
+    background-color: rgba(246, 235, 222);
     /* Moves the main content under the header and not behind it */
     margin-top: 43px;
     /* Makes main content take up all the space between header and footer */
@@ -89,13 +89,18 @@ main {
 }
 
 main > div {
-    padding: 1rem 5rem 0 5rem;
+    padding: 0.5rem 1rem 0rem 1rem;
     text-align: center;
+    
 }
 
 main h2 {
     font-family: 'GFS Didot', serif;
     padding: 2rem;
+}
+
+.home-text {
+    margin-bottom: 2rem;
 }
 
 main > img {
