@@ -105,6 +105,7 @@ main h2 {
     padding: 1rem;
 }
 
+/* To add space inbetween paragraphs without using break tags */
 .home-text {
     margin-bottom: 2rem;
 }
@@ -114,6 +115,7 @@ main img {
     width: 100%;
 }
 
+/* To make the image rounder */
 .break-text {
     border-radius: 50%;
 }
