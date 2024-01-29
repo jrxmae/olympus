@@ -37,7 +37,7 @@ header a {
     letter-spacing: 7px;
 }
 
-/* To change the colour fo the FontAwesome kit icon */
+/* To change the colour of the FontAwesome kit icon */
 i{
     color: #FBFCF8;
 }
@@ -48,6 +48,7 @@ i{
     font-size: 100%;
 }
 
+/* To add a dashed line underneath the current page being used */
 .active {
     border-bottom: 1px dashed #ffffff;
 }
@@ -95,14 +96,19 @@ main video {
     padding: 0rem 1rem 0.5rem 1rem;
 }
 
-main > div {
-    padding: 0rem 1rem 1rem 1rem;
-    text-align: center;
-}
-
 main h2 {
     font-family: 'GFS Didot', serif;
     padding: 1rem;
+}
+
+main > div {
+    padding: 0 1rem 1rem 1rem;
+    text-align: center;
+}
+
+.contact-us {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
 }
 
 /* To add space inbetween paragraphs without using break tags */
