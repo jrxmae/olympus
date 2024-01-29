@@ -137,6 +137,11 @@ form {
     margin: auto;
 }
 
+form div {
+    padding: 0.5rem 0 1rem;
+    display: inline-block;
+}
+
 footer {
     background-color: lightblue;
     padding: 0 1rem;
