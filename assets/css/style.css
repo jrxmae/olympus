@@ -126,6 +126,17 @@ main img {
     border-radius: 50%;
 }
 
+/* Styling for around the form */
+form {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 15%;
+    align-content: center;
+    padding: 2rem 0 2rem;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+}
+
 footer {
     background-color: lightblue;
     padding: 0 1rem;
