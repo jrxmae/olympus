@@ -126,6 +126,16 @@ main img {
     border-radius: 50%;
 }
 
+form section {
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+form div {
+    text-align: center;
+    
+}
+
 footer {
     background-color: lightblue;
     padding: 0 1rem;
