@@ -252,3 +252,11 @@ footer > p {
         font-size: 3em;
     }
 }
+
+/* Media query: laptops and desktops (width 1440px and up) */
+@media screen and (min-width: 1440px) {
+    header h1 {
+        position: relative;
+        right: -560px;
+    }
+}
