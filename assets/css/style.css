@@ -152,7 +152,7 @@ footer {
 #socials {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: baseline;
     font-size: 2rem;
 }
@@ -160,4 +160,21 @@ footer {
 footer > p {
     text-align: center;
     padding: 0 0 1rem;
+}
+
+/* Media query: larger phones (width 375px and up) */
+@media screen and (min-width: 375px) {
+    header h1 {
+        position: relative;
+        right: -18px;
+        letter-spacing: 9px;
+        size: 50rem;
+    }
+    i {
+        position: relative;
+        left: -15px;
+    }
+    .contact-us {
+        border-radius: 43%;
+    }
 }
