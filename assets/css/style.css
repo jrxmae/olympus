@@ -212,6 +212,7 @@ footer > p {
     #menu {
         position: relative;
         text-align: center;
+        font-size: 1em;
     }
     nav {
         display: inline-block;
@@ -221,11 +222,33 @@ footer > p {
     }
     main {
         margin-top: 159px;
+        font-size: 1em;
     }
     div img {
         border-radius: 75%;
     }
     .contact-us {
         border-radius: 30%;
+    }
+}
+
+/* Media query: laptops and desktops (width 1024px and up) */
+@media screen and (min-width: 1024px) {
+    header h1 {
+        position: relative;
+        right: -300px;
+    }
+    nav {
+        font-size: 2em;
+    }
+    main {
+        font-size: 2em;
+        margin-top: 224px;
+    }
+    .contact-us {
+        border-radius: 15%;
+    }
+    #socials {
+        font-size: 3em;
     }
 }
