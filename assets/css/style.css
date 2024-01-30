@@ -94,6 +94,13 @@ main {
     font-size: 1rem;
 }
 
+/* Styling for the video in 'Subscribe' page */
+main video {
+    width: 100%;
+    height: auto;
+    padding: 0rem 1rem 0.5rem 1rem;
+}
+
 main h2 {
     font-family: 'GFS Didot', serif;
     padding: 1rem;
