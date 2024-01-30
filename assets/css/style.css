@@ -48,9 +48,14 @@ i{
     font-size: 100%;
 }
 
+/* To change the color of the text black when user hovers over hyperlinks */
+a:hover {
+    color: #3a3a3a;
+}
+
 /* To add a dashed line underneath the current page being used */
 .active {
-    border-bottom: 1px dashed #ffffff;
+    border-bottom: 3px dashed #ffffff;
 }
 
 /* Navbar styles for dropdown */
@@ -59,7 +64,7 @@ nav {
     background-color: rgb(245, 223, 196);
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 0 1rem 0.5rem;
     box-shadow: 0 1px 6px #e0c192;
     display: none;
     top: 100%;
@@ -89,7 +94,7 @@ main {
     font-size: 1rem;
 }
 
-/* Styling for the video in 'Subsribe' page */
+/* Styling for the video in 'Subscribe' page */
 main video {
     width: 100%;
     height: auto;
@@ -137,11 +142,13 @@ form {
     background-size: cover;
 }
 
+/* Styling for inside the form */
 form div {
     padding: 0.5rem 0 1rem;
     display: inline-block;
 }
 
+/* Styling for the footer */
 footer {
     background-color: lightblue;
     padding: 0 1rem;
@@ -149,6 +156,7 @@ footer {
     font-size: medium;
 }
 
+/* Styling for the social media hyperlinks in footer */
 #socials {
     list-style-type: none;
     display: flex;
@@ -157,6 +165,7 @@ footer {
     font-size: 2rem;
 }
 
+/* Styling for the copyright message in footer */
 footer > p {
     text-align: center;
     padding: 0 0 1rem;
@@ -166,15 +175,57 @@ footer > p {
 @media screen and (min-width: 375px) {
     header h1 {
         position: relative;
-        right: -18px;
+        right: -20px;
         letter-spacing: 9px;
-        size: 50rem;
+        font-size: 2.5em;
     }
     i {
         position: relative;
-        left: -15px;
+        left: -17px;
+    }
+    main {
+        margin-top: 54px;
     }
     .contact-us {
         border-radius: 43%;
+    }
+    #socials {
+        position: relative;
+        right: -17px;
+    }
+}
+
+/* Media query: tablets and larger (width 768px and up) */
+@media screen and (min-width: 768px) {
+    header {
+        box-shadow: none;
+        background-color: rgba(245, 223, 196);
+    }
+    header i {
+        visibility: hidden;
+    }
+    header h1 {
+        position: relative;
+        right: -185px;
+        font-size: 4em;
+    }
+    #menu {
+        position: relative;
+        text-align: center;
+    }
+    nav {
+        display: inline-block;
+        right: -275px;
+        box-shadow: none;
+        background-color: rgb(241, 227, 210);
+    }
+    main {
+        margin-top: 159px;
+    }
+    div img {
+        border-radius: 75%;
+    }
+    .contact-us {
+        border-radius: 30%;
     }
 }
