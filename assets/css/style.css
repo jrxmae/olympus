@@ -222,6 +222,7 @@ footer {
 footer > p {
     text-align: center;
     padding: 0 0 1rem;
+    margin-top: 1rem;
 }
 
 /* Media query: larger phones (width 375px and up) */
