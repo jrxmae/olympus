@@ -47,31 +47,32 @@
             </video>
         </div>
         <form method="POST" action="https://formdump.codeinstitute.net"
-            style="background-image: url(assets/images/form-picture.jpg);">
-            <h2>Subscribe to our Newsletter!</h2>
-            <div>
+            style="background-image: url(assets/images/form-picture.jpg); margin-bottom: 2rem;">
+            <div style="background-color: #ffffff9e; padding: 1rem; border-radius: 15%;">
+                <h2>Subscribe to our Newsletter!</h2>
+                <br>
+                <p>By subscribing to our newsletter, you will be notified when we add new content, updates, amongst other things.</p>
+                <br>
                 <label for="first_name"> First Name</label>
+                <br>
                 <input type="text" name="first_name"class="first_name" required>
-            </div>
-            <div>
+                <br>
                 <label for="email_address"> Email Address</label>
+                <br>
                 <input type="email" name="email_address" class="email_address" required>
-            </div>
-            <div>
+                <br>
                 <label for="phone_number">Phone Number</label>
+                <br>
                 <input type="number" name="phone_number" class="phone_number" required>
-            </div>
-            <h3>How would you like to be contacted when we add new content?</h3>
-            <div>
+                <br>
+                <h3>How would you like to be contacted when we add new content?</h3>
                 <label for="email">Email</label>
                 <input type="radio" name="contact_preference" value="email" required checked>
-            </div>
-            <div>
                 <label for="phone">Phone</label>
                 <input type="radio" name="contact_preference" value="phone" required>
+                <br>
+                <input type="submit" name="subscribe" value="Subscribe" class="button-83" role="button">
             </div>
-            <br>
-            <input type="submit" name="subscribe">
         </form>
     </main>
 
