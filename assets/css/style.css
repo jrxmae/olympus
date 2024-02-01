@@ -111,6 +111,10 @@ main > div {
     text-align: center;
 }
 
+#olympians {
+    padding: 2rem;
+}
+
 .contact-us {
     background-color: rgba(0, 0, 0, 0.15);
     border-radius: 50%;
