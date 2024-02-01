@@ -142,6 +142,7 @@ form {
 
 /* Styling for inside the form */
 form div {
+    width: 100%;
     padding: 0.5rem 1rem 1rem;    
     display: inline-block;
 }
