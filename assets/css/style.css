@@ -211,6 +211,7 @@ footer {
     justify-content: space-evenly;
     align-items: baseline;
     font-size: 2rem;
+    margin-top: 1rem;
 }
 
 /* Styling for the copyright message in footer */
