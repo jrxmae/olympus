@@ -323,7 +323,7 @@ footer > p {
 @media screen and (min-width: 1024px) {
     header h1 {
         position: relative;
-        right: -204px;
+        right: -210px;
         font-size: 4rem;
         letter-spacing: 42px;
     }
@@ -356,7 +356,7 @@ footer > p {
 @media screen and (min-width: 1440px) {
     header h1 {
         position: relative;
-        right: -362px;
+        right: -373px;
         font-size: 6rem;
     }
     header a{
@@ -374,6 +374,22 @@ footer > p {
 @media screen and (min-width: 1280px) {
     header h1 {
         position: relative;
-        right: -305px;
+        right: -320px;
+    }
+}
+
+/* Media query: for Apple desktop (width 1600px) */
+@media screen and (min-width: 1600px) {
+    header h1 {
+        position: relative;
+        right: -445px;
+    }
+}
+
+/* Media query: for larger laptop and desktops (width 1536) */
+@media screen and (min-width: 1536px) {
+    header h1 {
+        position: relative;
+        right: -380px;
     }
 }
