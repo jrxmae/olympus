@@ -348,4 +348,7 @@ footer > p {
     main {
         margin-top: 181px;
     }
+    form {
+        background-size: 100% 550px;
+    }
 }
