@@ -56,7 +56,9 @@ a:hover {
 
 /* To add a dashed line underneath the current page being used */
 .active {
-    border-bottom: 4px dashed #ffffff;
+    border-bottom: 2px dashed #ffffff;
+    display: inline-block;
+    line-height: 10px;
 }
 
 /* Navbar styles for dropdown */
