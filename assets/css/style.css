@@ -89,7 +89,7 @@ nav {
 main {
     background-color: rgba(246, 235, 222);
     /* Moves the main content under the header and not behind it */
-    margin-top: 43px;
+    margin-top: 37px;
     /* Makes main content take up all the space between header and footer */
     flex: 1 0 auto;
     font-family: 'GFS Neohellenic', sans-serif;
@@ -263,7 +263,7 @@ footer > p {
         bottom: 2px;
     }
     main {
-        margin-top: 54px;
+        margin-top: 46px;
     }
     .contact-us {
         border-radius: 30%;
@@ -308,7 +308,7 @@ footer > p {
         line-height: 15px;
     }
     main {
-        margin-top: 104px;
+        margin-top: 90px;
         font-size: 1em;
     }
     div img {
@@ -339,7 +339,7 @@ footer > p {
     }
     main {
         font-size: 2em;
-        margin-top: 137px;
+        margin-top: 118px;
     }
     .contact-us {
         border-radius: 15%;
@@ -371,7 +371,7 @@ footer > p {
         font-size: 1.5rem;
     }
     main {
-        margin-top: 181px;
+        margin-top: 156px;
     }
     form {
         background-size: 100% 550px;
