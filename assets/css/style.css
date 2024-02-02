@@ -148,6 +148,7 @@ main img {
     border-radius: 50%;
 }
 
+/* Styling of the line break tag */
 hr {
     border-top: 17px dotted whitesmoke;
     margin: 2rem 0 2rem;
@@ -181,7 +182,7 @@ input[type="radio"] {
     margin-bottom: 2rem;
 }
 
-/* Styling for submit button */
+/* Styling for submit button from getcssscan.com */
 .button-83 {
   appearance: button;
   background-color: transparent;
@@ -316,11 +317,9 @@ footer > p {
         font-size: 4rem;
         letter-spacing: 42px;
     }
-
     header a {
         letter-spacing: 5px;
     }
-
     #menu {
         font-size: 2rem;
     }
