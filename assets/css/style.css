@@ -369,3 +369,11 @@ footer > p {
         background-size: 100% 550px;
     }
 }
+
+/* Media query: for Apple laptop (width 1280px) */
+@media screen and (min-width: 1280px) {
+    header h1 {
+        position: relative;
+        right: -305px;
+    }
+}
