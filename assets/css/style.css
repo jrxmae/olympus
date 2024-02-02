@@ -352,6 +352,14 @@ footer > p {
     }
 }
 
+/* Media query: for Apple laptop (width 1280px) */
+@media screen and (min-width: 1280px) {
+    header h1 {
+        position: relative;
+        right: -320px;
+    }
+}
+
 /* Media query: laptops and desktops (width 1440px and up) */
 @media screen and (min-width: 1440px) {
     header h1 {
@@ -370,11 +378,11 @@ footer > p {
     }
 }
 
-/* Media query: for Apple laptop (width 1280px) */
-@media screen and (min-width: 1280px) {
+/* Media query: for larger laptop and desktops (width 1536) */
+@media screen and (min-width: 1536px) {
     header h1 {
         position: relative;
-        right: -320px;
+        right: -380px;
     }
 }
 
@@ -382,14 +390,6 @@ footer > p {
 @media screen and (min-width: 1600px) {
     header h1 {
         position: relative;
-        right: -445px;
-    }
-}
-
-/* Media query: for larger laptop and desktops (width 1536) */
-@media screen and (min-width: 1536px) {
-    header h1 {
-        position: relative;
-        right: -380px;
+        right: -402px;
     }
 }
