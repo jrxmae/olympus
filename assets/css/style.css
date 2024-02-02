@@ -56,7 +56,7 @@ a:hover {
 
 /* To add a dashed line underneath the current page being used */
 .active {
-    border-bottom: 3px dashed #ffffff;
+    border-bottom: 4px dashed #ffffff;
 }
 
 /* Navbar styles for dropdown */
@@ -255,14 +255,15 @@ footer > p {
     i {
         position: relative;
         left: -17px;
+        font-size: 2rem;
+        bottom: 2px;
     }
     main {
         margin-top: 54px;
     }
     .contact-us {
-        border-radius: 43%;
+        border-radius: 30%;
     }
-
     #socials {
         position: relative;
         right: -17px;
@@ -275,18 +276,18 @@ footer > p {
         box-shadow: none;
         background-color: rgba(245, 223, 196);
     }
+    header h1 {
+        position: relative;
+        right: -177px;
+        font-size: 3rem;
+        letter-spacing: 24px;
+    }
     header i {
         visibility: hidden;
     }
-    header h1 {
-        position: relative;
-        right: -185px;
-        font-size: 4em;
-    }
-    #menu {
-        position: relative;
-        text-align: center;
-        font-size: 1em;
+    nav ul {
+        display: flex;
+        justify-content: space-around;
     }
     nav {
         display: inline-block;
@@ -294,15 +295,16 @@ footer > p {
         box-shadow: none;
         background-color: rgb(241, 227, 210);
     }
+    #menu {
+        position: relative;
+        font-size: 1.5rem;
+    }
     main {
-        margin-top: 159px;
+        margin-top: 104px;
         font-size: 1em;
     }
     div img {
         border-radius: 75%;
-    }
-    .contact-us {
-        border-radius: 30%;
     }
 }
 
@@ -310,20 +312,27 @@ footer > p {
 @media screen and (min-width: 1024px) {
     header h1 {
         position: relative;
-        right: -300px;
+        right: -212px;
+        font-size: 4rem;
+        letter-spacing: 42px;
     }
-    nav {
-        font-size: 2em;
+
+    header a {
+        letter-spacing: 5px;
+    }
+
+    #menu {
+        font-size: 2rem;
     }
     main {
         font-size: 2em;
-        margin-top: 224px;
+        margin-top: 137px;
     }
     .contact-us {
         border-radius: 15%;
     }
     #socials {
-        font-size: 3em;
+        font-size: 1rem;
     }
 }
 
@@ -331,6 +340,13 @@ footer > p {
 @media screen and (min-width: 1440px) {
     header h1 {
         position: relative;
-        right: -560px;
+        right: -365px;
+        font-size: 6rem;
+    }
+    header a{
+        font-size: 1.5rem;
+    }
+    main {
+        margin-top: 181px;
     }
 }
