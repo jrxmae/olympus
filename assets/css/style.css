@@ -27,6 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    z-index: 5;
 }
 
 header a {
@@ -99,6 +100,7 @@ main video {
     width: 100%;
     height: auto;
     padding: 0rem 1rem 0.5rem 1rem;
+    z-index: 2;
 }
 
 main h2 {
@@ -259,6 +261,7 @@ footer > p {
     .contact-us {
         border-radius: 43%;
     }
+
     #socials {
         position: relative;
         right: -17px;
