@@ -303,6 +303,10 @@ footer > p {
         position: relative;
         font-size: 1.5rem;
     }
+    .active {
+        display: inline-block;
+        line-height: 15px;
+    }
     main {
         margin-top: 104px;
         font-size: 1em;
@@ -319,7 +323,7 @@ footer > p {
 @media screen and (min-width: 1024px) {
     header h1 {
         position: relative;
-        right: -212px;
+        right: -204px;
         font-size: 4rem;
         letter-spacing: 42px;
     }
@@ -329,12 +333,19 @@ footer > p {
     #menu {
         font-size: 2rem;
     }
+    .active{
+        display: inline-block;
+        line-height: 25px;
+    }
     main {
         font-size: 2em;
         margin-top: 137px;
     }
     .contact-us {
         border-radius: 15%;
+    }
+    form {
+        background-size: 100% 600px;
     }
     #socials {
         font-size: 1rem;
@@ -345,7 +356,7 @@ footer > p {
 @media screen and (min-width: 1440px) {
     header h1 {
         position: relative;
-        right: -365px;
+        right: -362px;
         font-size: 6rem;
     }
     header a{
