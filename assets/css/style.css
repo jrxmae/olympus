@@ -173,6 +173,10 @@ form div {
     display: inline-block;
 }
 
+label {
+    font-size: 13px;
+}
+
 /* Styling for input tags*/
 input {
     margin: 10px;
@@ -264,6 +268,9 @@ footer > p {
     }
     main {
         margin-top: 54px;
+    }
+    label {
+        font-size: 20px;
     }
     .contact-us {
         border-radius: 30%;
