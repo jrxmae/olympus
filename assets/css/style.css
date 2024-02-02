@@ -155,7 +155,7 @@ hr {
 
 /* Styling for around the form */
 form {
-    border-radius: 15%;
+    border-radius: 5%;
     width: 95%;
     text-align: left;
     margin: auto;
@@ -178,6 +178,7 @@ input {
 /* Styling for input tags that are radio buttons */
 input[type="radio"] {
     display: inline;
+    margin-bottom: 2rem;
 }
 
 /* Styling for submit button */
