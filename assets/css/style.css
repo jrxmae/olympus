@@ -150,7 +150,7 @@ main img {
 
 /* Styling of the line break tag */
 hr {
-    border-top: 17px dotted whitesmoke;
+    border: 3px solid whitesmoke;
     margin: 2rem 0 2rem;
 }
 
