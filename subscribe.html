@@ -44,32 +44,31 @@
                 <source src="assets/videos/the-12-olympians.mp4" type="video/mp4">
             </video>
         </div>
-        <form method="POST" action="https://formdump.codeinstitute.net"
-            role="img" aria-label="Coloured and faded picture of an old, broken down Greek temple" style="background-image: url(assets/images/form-picture.jpg); margin-bottom: 2rem;">
+        <form method="POST" action="https://formdump.codeinstitute.net" aria-label="Coloured and faded picture of an old, broken down Greek temple" style="background-image: url(assets/images/form-picture.jpg); margin-bottom: 2rem;">
             <div style="background-color: #ffffff9e; padding: 1rem; border-radius: 5%;">
                 <h2>Subscribe to our Newsletter!</h2>
                 <br>
                 <p>By subscribing to our newsletter, you will be notified when we add new content, updates, amongst other things.</p>
                 <br>
-                <label for="first_name"> First Name</label>
+                <label>
+                    First Name<input type="text" name="first_name" class="first_name" required>
+                </label>
                 <br>
-                <input type="text" name="first_name"class="first_name" required>
+                <label>
+                Email Address<input type="email" name="email_address" class="email_address" required>
+                </label>
                 <br>
-                <label for="email_address"> Email Address</label>
-                <br>
-                <input type="email" name="email_address" class="email_address" required>
-                <br>
-                <label for="phone_number">Phone Number</label>
-                <br>
-                <input type="number" name="phone_number" class="phone_number" required>
+                <label>
+                Phone Number<input type="number" name="phone_number" class="phone_number" required>
+                </label>
                 <br>
                 <h3>How would you like to be contacted when we add new content?</h3>
-                <label for="email">Email</label>
-                <input type="radio" name="contact_preference" value="email" required checked>
-                <label for="phone">Phone</label>
-                <input type="radio" name="contact_preference" value="phone" required>
+                <label for="contact-email">Email</label>
+                <input type="radio" name="contact-email" id="contact-email" value="contact-email" required checked>
+                <label for="contact-phone">Phone</label>
+                <input type="radio" name="contact-phone" id="contact-phone" value="contact-phone" required>
                 <br>
-                <input type="submit" name="subscribe" value="Subscribe" class="button-83" role="button">
+                <input type="submit" name="subscribe" value="Subscribe" class="button-83">
             </div>
         </form>
     </main>

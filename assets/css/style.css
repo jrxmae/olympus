@@ -144,7 +144,7 @@ main img {
 }
 
 /* Styling for the images in 'The Olypians' page */
-#god-images {
+#god-zeus, #god-poseidon, #god-hades {
     border-radius: 50%;
 }
 
