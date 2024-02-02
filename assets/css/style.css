@@ -279,7 +279,7 @@ footer > p {
     }
     header h1 {
         position: relative;
-        right: -177px;
+        right: -180px;
         font-size: 3rem;
         letter-spacing: 24px;
     }
@@ -306,6 +306,9 @@ footer > p {
     }
     div img {
         border-radius: 75%;
+    }
+    form {
+        background-size: 100% 400px;
     }
 }
 
