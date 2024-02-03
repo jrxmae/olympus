@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=GFS+Didot&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&display=swap') rel="preconnect";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=GFS+Didot&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Overrides default styling by the browser */
 * {
@@ -119,6 +119,10 @@ em {
 main > div {
     padding: 0 1rem 1rem 1rem;
     text-align: center;
+}
+
+.home-text {
+    padding: 1rem;
 }
 
 #olympians {
@@ -314,6 +318,10 @@ footer > p {
     div img {
         border-radius: 75%;
     }
+    #olympians p {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
     form {
         background-size: 100% 400px;
     }
@@ -340,6 +348,18 @@ footer > p {
     main {
         font-size: 2em;
         margin-top: 118px;
+    }
+    main video {
+        width: 750px;
+        height: auto;
+    }
+    #god-zeus, #god-poseidon, #god-hades {
+        width: 700px;
+        height: auto;
+    }
+    #olympians p {
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
     .contact-us {
         border-radius: 15%;
