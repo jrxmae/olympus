@@ -11,7 +11,6 @@ Olympus is a place where people, who enjoy reading about the adventures of Greek
     2. [User Stories](#user-stories)
     3. [Color Scheme](#color-scheme)
     4. [Typography](#typography)
-    5. [Wireframes](#wireframes)
 2. [Features](#features)
     1. [General](#general)
     2. [Home Page](#home-page)
@@ -41,27 +40,32 @@ Olympus is a place where people, who enjoy reading about the adventures of Greek
 
 ### Project Goals
 
-*
+* Present a website reminiscent of an ancient Greek temple to emit the feeling of travelling through history.
 
-*
+* Offer alternative options for the user to gain information such as a video if they are unable to read.
 
-*
+* Provide the user with concise information as too much text will be overwhelming.
 
 ### User Stories
 
-*
+* A user should be able to easily navigate the website.
 
-*
+* A user should be able to read and understand clearly what is written.
 
-*
+* A user should be able to contact the website in some way.
+
+* A user should be able to choose between different options when filling out the form.
+
+* A user should be able to visit the social media pages of the website, providing they have one.
 
 ### Color Scheme
+![Color scheme image](assets/read-me-files/color-scheme.jpg)
 
-The colors I used in the website are
+The main colors in this website are shades of beige and blue with off-white used for icons, dark grey for contrast and black for hover and text.
 
 ### Typography
 
-### Wireframes
+The main font is 'GFS Neohellenic' with Sans-Serif as fallback. 'Cinzel' is used in the header and navigation bar with Serif as fallback. Lastly, 'GFS Didot' is used in heading of the main content with Serif as fallback.
 
 [Back to top ⇧](#olympus)
 
@@ -133,7 +137,7 @@ The colors I used in the website are
 
     - The form is a newsletter that users can subscribe to if they wish to be informed when new content is added to the website, which they can choose how to be contacted.
 
-
+[Back to the top ⇧](#olympus)
 
 ## Technologies Used
 
@@ -182,9 +186,35 @@ The colors I used in the website are
 * [FavIcon](https://favicon.io/favicon-converter/)
     - FavIcon converter was used to convert the favicon images into a zip file that contains sizes not readily available on Icons8.
 
+[Back to the top ⇧](#olympus)
+
 ## Testing
 
 ### Testing User Stories
+
+* A user should be able to easily navigate the website.
+
+    - With smaller screen sizes, the website offers a dropdown menu to accommodate the space. When the screen is larger, the menu spreads out to fill the screen space.
+
+    - The current active page will be underlined in white, a different color to the text so as not to confuse the user.
+
+* A user should be able to read and understand clearly what is written.
+
+    - The text is in black to stand out against the light background color, the size readjusts depending on the screen size and the font used is clear.
+
+* A user should be able to contact the website in some way.
+
+    - There is a 'Contact Us' provided in the home page where they can find an email and a phone number. 
+
+* A user should be able to choose between different options when filling out the form.
+
+    - In the form section, the user can choose to their preferred way of receiving the newsletter.
+
+* A user should be able to visit the social media pages of the website, providing they have one.
+
+    - At the bottom of the page, on the footer, there are four icons provided with links to their corresponding social media website.
+
+    - The user can choose where to follow the website and each link opens in a new tab, not hidering their browsing of this website.
 
 ### Validator Testing
 
@@ -203,7 +233,28 @@ The colors I used in the website are
 
 ### Accessibility
 
+* Lighthouse in Chrome DevTools was used to test the performance of the website.
+
+* Results:
+
+    - **Home Page**
+    ![Lighthouse result for home page image](assets/read-me-files/lighthouse-homepage.png)
+
+    - **'The Olympians' Page**
+    ![Lighthouse result for 'The Olympians' page image](assets/read-me-files/lighthouse-olympians.png)
+
+    - **Subscribe Page**
+    ![Lighthouse result for 'Subscribe' page image](assets/read-me-files/lighthouse-subscribe.png)
+
 ### Tools Testing
+
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools)
+
+    - Chrome DevTools was used to test the code being applied, responsiveness to different screen sizes and performance.
+
+* [Am I Responsive?](https://ui.dev/amiresponsive)
+
+    - Am I Responsive? was used to test the responsiveness of the website with Apple products provided in the mockup images.
 
 ### Manual Testing
 
@@ -215,11 +266,60 @@ The colors I used in the website are
         No issues to be seen.
 
         - **Safari**
-        No issues to be seen on mobile version. Larger screen sizes not tested, checks made through Chrome DevTools.
+        No issues to be seen on mobile version. Physical larger screen sizes not tested, checks made through Chrome DevTools.
 
         - **Mozilla Firefox**
         No issues to be seen.
-        
+
+        - **Microsoft Edge**
+        No issues to be seen.
+
+        - **Opera GX**
+        No issues to be seen.
+
+* Device compatibility
+
+    - The website has been tested on the devices below:
+
+        - **Samsung Galaxy S23 Ultra**
+        No issues to be seen.
+
+        - **iPhone 14 Pro**
+        No issues to be seen.
+
+        - **Samsung Galaxy Tab S9 FE 10.9"**
+        No issues to be seen.
+
+        - **Acer Nitro 5**
+        No issues to be seen.
+    
+* Common Elements Testing
+
+    - All Pages
+
+        - **Header**
+
+            - Clicking on the header logo will bring the user back to the home page.
+
+            - Hovering over header logo changes text to black.
+
+        - **Navigation Bar**
+
+            - A white, dashed line appears underneath current active page.
+
+            - Hovering over navigation bar link turns text to black.
+
+        - **Footer**
+
+            - Each social media icon will open the linked website in a new tab when clicked.
+    
+    - Subscribe Page
+
+        - Controls are immediately visible and the video is automatically muted.
+
+        - If any of the 'First Name', 'Email Address' and 'Phone Number' fields are left empty, the user will be warned that they are required before submitting.
+
+        - The user is required to choose one of the radio buttons of 'Email' or 'Phone' depending on their preference of contact.
 
 [Back to the top ⇧](#olympus)
 
