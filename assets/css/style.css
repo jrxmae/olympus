@@ -23,6 +23,7 @@ header {
     /* Prevents header from sticking to the sides of the screen */
     padding: 0 1rem;
     box-shadow: 0 1px 6px #e0c192;
+    /* Code for navbar dropdown directly from Love Running Walkthrough project from Code Institute with changes to sizes/colors to match website */
     /* For dropdown bar */
     display: flex;
     justify-content: space-between;
@@ -61,6 +62,7 @@ a:hover {
     line-height: 10px;
 }
 
+/* Code for navbar dropdown directly from Love Running Walkthrough project from Code Institute with changes to sizes/colors to match website */
 /* Navbar styles for dropdown */
 nav {
     position: absolute;
@@ -86,6 +88,7 @@ nav {
     font-size: 2rem;
 }
 
+/* Styling for the main content */
 main {
     background-color: rgba(246, 235, 222);
     /* Moves the main content under the header and not behind it */
