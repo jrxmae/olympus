@@ -325,6 +325,13 @@ The main font is 'GFS Neohellenic' with Sans-Serif as fallback. 'Cinzel' is used
 
 ## Finished Product
 
+Page | Desktop version | Mobile version | Tablet version
+--- | --- | --- | ---
+Home | ![Desktop home page image](assets/read-me-files/desktop-home.jpeg) | ![Mobile home page image](assets/read-me-files/mobile-home.jpg) | ![Tablet home page image](assets/read-me-files/tablet-home.jpg)
+Olympians | ![Desktop olympians page image](assets/read-me-files/desktop-olympians.jpeg) | ![Mobile olympians page image](assets/read-me-files/mobile-olympians.jpg) | ![Tablet olympians page image](assets/read-me-files/tablet-olympians.jpg)
+Subscribe | ![Desktop subscribe page](assets/read-me-files/desktop-subscribe.jpeg) | ![Mobile subscribe page](assets/read-me-files/mobile-subscribe.jpg) | ![Tablet subscribe page](assets/read-me-files/tablet-subscribe.jpg)
+
+
 [Back to the top ⇧](#olympus)
 
 ## Deployment
@@ -389,7 +396,7 @@ The main font is 'GFS Neohellenic' with Sans-Serif as fallback. 'Cinzel' is used
 
 ### Code
 
-* [Code Institute](https://codeinstitute.net/ie/) 
+* [Code Institute](https://codeinstitute.net/ie/) Love Running Walkthrough Project was used for the navigation bar dropdown and toggle styling starting in line 28 to 30 and line 67 to 88(with changes to specifics such as sizes and colors to better fit the website).
 
 * [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were used to better understand what I was applying to my code and helped me understand why my code wasn't working at times. I was able to explore and learn the many options available for the elements I was using.
 
